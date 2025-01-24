@@ -2,7 +2,6 @@
 
 This repository contains a comprehensive, production-grade **ETL (Extract, Transform, Load)** pipeline built with **AWS Glue** and **Amazon Redshift**. The pipeline processes a raw IMDb movie dataset stored in **Amazon S3**, applies **data quality validation**, dynamically routes data based on validation results, and loads it into **Amazon Redshift** for advanced analytics. Additional integrations with **Amazon EventBridge** and **Amazon SNS** enable event-driven notifications for job status updates.
 
----
 
 ## What Does This Project Do?
 
